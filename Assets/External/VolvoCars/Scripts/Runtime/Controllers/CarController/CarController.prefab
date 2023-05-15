@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4806326817016233155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4806326817016233153}
+  - component: {fileID: 4806326817016233152}
+  - component: {fileID: -631542409965421760}
+  m_Layer: 0
+  m_Name: CarController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4806326817016233153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806326817016233155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4806326817016233152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806326817016233155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9105e94748b26841bfb6e88cb5334fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  udpReceive: {fileID: 0}
+  info:
+    text: This demo controller lets you control the car using the axes named Horizontal,
+      Vertical and Jump. If you are using keyboard and standard Unity settings, this
+      means either arrow keys or WASD together with Space.
+    messageType: 0
+    show: 1
+  brakeToReverse: 1
+  infoAboutCurves:
+    text: The curves below descibe available total wheel torque ( Nm, y axis) vs
+      vehicle speed (m/s, x axis).
+    messageType: 0
+    show: 1
+  availableForwardTorque:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1000
+      inSlope: 362.55988
+      outSlope: 362.55988
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.12901086
+    - serializedVersion: 3
+      time: 2
+      value: 5500
+      inSlope: -0.38623625
+      outSlope: -0.38623625
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.8903444
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 14
+      value: 5500
+      inSlope: -12.286913
+      outSlope: -12.286913
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1819532
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 44.06959
+      value: 2298.7544
+      inSlope: -55.863007
+      outSlope: -55.863007
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07249101
+      outWeight: 0.31647766
+    - serializedVersion: 3
+      time: 50.00833
+      value: 500
+      inSlope: -635.5122
+      outSlope: -635.5122
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11979406
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  availableReverseTorque:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2700
+      inSlope: 0
+      outSlope: -180
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 15
+      value: 0
+      inSlope: -180
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  consoleMessages: 0
+  propulsiveDirection: {fileID: 11400000, guid: ec657b40a47804e52a3ff5aa4c54eafd, type: 2}
+  wheelTorque: {fileID: 11400000, guid: c19ad5bcab1794b5b9ebad99c1d35465, type: 2}
+  userSteeringInput: {fileID: 11400000, guid: 7722cf0e279a85c4f989ccf7d925d2ab, type: 2}
+  velocity: {fileID: 11400000, guid: 3aab31d7b50b44db0b672cf402eaeb4d, type: 2}
+  gearLeverIndication: {fileID: 11400000, guid: 1e51a78e2736840a0a0af75032f52d05, type: 2}
+  doorIsOpenR1L: {fileID: 11400000, guid: 267135e217489402d89b265d58408cda, type: 2}
+  lampBrake: {fileID: 11400000, guid: 0063ec1d5b4c9465090e5f3d541e8e80, type: 2}
+--- !u!114 &-631542409965421760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806326817016233155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b25902dac47450fbf2d377a07ecf42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 5053
+  startRecieving: 1
+  printToConsole: 0
+  data: 

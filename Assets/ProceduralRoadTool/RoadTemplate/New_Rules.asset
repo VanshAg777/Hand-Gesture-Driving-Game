@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d955ca1a48d1414dbbfc23b901d1808, type: 3}
+  m_Name: New_Rules
+  m_EditorClassIdentifier: 
+  templates:
+  - name: RightGuardRails
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: -1.25
+      spacingDistance: 1.45
+      positionOffset: {x: 0, y: 0.57, z: 0}
+      localScale: 1.05
+      rotationOffset: {x: 0, y: 180, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: 0, z: 0}
+      randomThreshold: 0
+      curveSpawnThreshold: 0.957
+      angleDiffThreshold: 0
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 1
+    prefabs:
+    - {fileID: 5750082779334079891, guid: 735e3a0920f3534478c2bf05fc1becd8, type: 3}
+  - name: CurveSigns
+    settings:
+      orientWithCurve: 0
+      snapToTerrain: 0
+      distanceFromCenter: 1.5
+      spacingDistance: 1.18
+      positionOffset: {x: 0, y: 0, z: 0}
+      localScale: 1.03
+      rotationOffset: {x: 0, y: 0, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0.01, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: 0.09, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.871
+      angleDiffThreshold: 0
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 1
+    prefabs:
+    - {fileID: 6907737191949484511, guid: 9bcbf13dd8aa3f7469bd208ea661685d, type: 3}
+  - name: CurveAheadSign
+    settings:
+      orientWithCurve: 0
+      snapToTerrain: 0
+      distanceFromCenter: 1.56
+      spacingDistance: 4.52
+      positionOffset: {x: -1.6, y: 3.88, z: 0}
+      localScale: 2.44
+      rotationOffset: {x: 0, y: 213.08, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: 0, z: 0}
+      randomThreshold: 0.952
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 63.5
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 2
+    prefabs:
+    - {fileID: 572980040938655583, guid: 87cbd574ff5a4bf4eb5f85ea7119159d, type: 3}
+    - {fileID: 2810919514581561793, guid: dcc738adaca6ba74e8f4d9ed2e79aec8, type: 3}
+    - {fileID: 8744197795753916413, guid: 5bb7e66f754d95e4e9d231ecdf1fc7d8, type: 3}
+  - name: CenterLongDecals
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 10
+      positionOffset: {x: 0, y: 0.25, z: 0}
+      localScale: 1.23
+      rotationOffset: {x: 90, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0.16}
+      rotationNoiseFac: {x: 0, y: 0, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 0
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 0
+    prefabs:
+    - {fileID: 3279914571622881686, guid: 2b14bb5da7a299841b57a850a4634531, type: 3}
+  - name: LeftShortLinesDecals
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 2
+      positionOffset: {x: -3.23, y: 0.15, z: 0}
+      localScale: 1.35
+      rotationOffset: {x: 90, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0.16}
+      rotationNoiseFac: {x: 0, y: 0, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 0
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 0
+    prefabs:
+    - {fileID: 6012365221364853143, guid: e781cb74d2366474bbb14d8ac5d9f892, type: 3}
+  - name: RightShortLinesDecals
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 2
+      positionOffset: {x: 3.23, y: 0.15, z: 0}
+      localScale: 1.35
+      rotationOffset: {x: 90, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0.16}
+      rotationNoiseFac: {x: 0, y: 0, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 0
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 0
+    prefabs:
+    - {fileID: 6012365221364853143, guid: e781cb74d2366474bbb14d8ac5d9f892, type: 3}
+  - name: LeftSpeedBump
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 3.4
+      positionOffset: {x: 2.07, y: 0, z: 0}
+      localScale: 1.8
+      rotationOffset: {x: 0, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: 5.12, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.288
+      angleDiffThreshold: 35
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 2
+    prefabs:
+    - {fileID: 5785788116880149897, guid: c699e39fd4374ff4181b8ba78042fefa, type: 3}
+  - name: RightSpeedBump
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 3.4
+      positionOffset: {x: -2.09, y: 0, z: 0}
+      localScale: 1.8
+      rotationOffset: {x: 0, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: -1.24, z: 0}
+      randomThreshold: 0.515
+      curveSpawnThreshold: 0.288
+      angleDiffThreshold: 35
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 2
+    prefabs:
+    - {fileID: 5785788116880149897, guid: c699e39fd4374ff4181b8ba78042fefa, type: 3}
+  - name: Cones
+    settings:
+      orientWithCurve: 0
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 5
+      positionOffset: {x: -7.81, y: 0.15, z: 0}
+      localScale: 1.12
+      rotationOffset: {x: 0, y: 90, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0.55, y: 0, z: 0.69}
+      scaleNoiseFac: {x: 0, y: 0}
+      rotationNoiseFac: {x: 0, y: 315.86, z: 0}
+      randomThreshold: 0.821
+      curveSpawnThreshold: 0.888
+      angleDiffThreshold: 15
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 1
+    prefabs:
+    - {fileID: 8603218306372413372, guid: 56d2ec3cdb24b3743947d786322c6f13, type: 3}
+  - name: Cracks
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 6
+      positionOffset: {x: 0, y: 0.27, z: 0}
+      localScale: 0.79
+      rotationOffset: {x: 90, y: 0, z: 0}
+      seed: 7
+      positionNoiseFac: {x: 0.97, y: 0, z: 0}
+      scaleNoiseFac: {x: -2.52, y: 2.02}
+      rotationNoiseFac: {x: 0, y: 325.47, z: 0}
+      randomThreshold: 0.197
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 63.5
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 0
+    prefabs:
+    - {fileID: 7711687839571764860, guid: efe3915b54c8033449c1283359091bea, type: 3}
+    - {fileID: 5866061718565185131, guid: 53c7075151256da49ad3d9f7ddf8b411, type: 3}
+    - {fileID: 3050886013023923704, guid: 971fcafac9d9eb44c8bc5dd690b2a41a, type: 3}
+  - name: StainsAndPuddles
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 8
+      positionOffset: {x: 0, y: 0.08, z: 0}
+      localScale: 1
+      rotationOffset: {x: 90, y: 0, z: 0}
+      seed: 62
+      positionNoiseFac: {x: 4.55, y: 0, z: 0}
+      scaleNoiseFac: {x: 0, y: -0.56}
+      rotationNoiseFac: {x: 0, y: 298.46, z: 0}
+      randomThreshold: 0.197
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 63.5
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 0
+    prefabs:
+    - {fileID: 4020740736407404837, guid: d4db81cfd20bb684c9a2e80506e0cee1, type: 3}
+    - {fileID: 5491692497212873662, guid: a0382de443e916944bd122e5279026be, type: 3}
+    - {fileID: 3833702019690052470, guid: f203fb1f04f36a04586be38e7c8f97ce, type: 3}
+  - name: FoliageLeft
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 2
+      positionOffset: {x: 6.3, y: -0.23, z: 0}
+      localScale: 0.5
+      rotationOffset: {x: 0, y: 0, z: 0}
+      seed: 62
+      positionNoiseFac: {x: 0.69, y: 0, z: 1.02}
+      scaleNoiseFac: {x: 0, y: 0.37}
+      rotationNoiseFac: {x: 0, y: 298.46, z: 0}
+      randomThreshold: 0.197
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 63.5
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 3
+    prefabs:
+    - {fileID: 3483850485456752756, guid: ba116524665fe964abd3bfe4f2218dee, type: 3}
+    - {fileID: 836450184621525878, guid: 69315bb7fbfb0aa48a092b6abf8b5f28, type: 3}
+    - {fileID: 8666892796985090937, guid: 4b1c0b6fdb680dd43b58a80eafc54ae2, type: 3}
+    - {fileID: 3545894991660671465, guid: 022f91b45c2c60d408fa599dcd1cb7e5, type: 3}
+  - name: FoliageRight
+    settings:
+      orientWithCurve: 1
+      snapToTerrain: 0
+      distanceFromCenter: 0
+      spacingDistance: 2
+      positionOffset: {x: -7.36, y: 0.08, z: 0}
+      localScale: 0.5
+      rotationOffset: {x: 0, y: 0, z: 0}
+      seed: 20
+      positionNoiseFac: {x: 0.69, y: 0, z: 1.02}
+      scaleNoiseFac: {x: 0, y: 0.37}
+      rotationNoiseFac: {x: 0, y: 298.46, z: 0}
+      randomThreshold: 0.197
+      curveSpawnThreshold: 0.568
+      angleDiffThreshold: 63.5
+      material: {fileID: 0}
+      shape: {fileID: 0}
+      useRoadSettings: 1
+      roadSegments: 60
+      roadWidth: 2
+      isHidden: 0
+      splatDefinition: {fileID: 0}
+      splatMaterial: {fileID: 0}
+      ExclusionZoneresolution: 128
+      ExclusionZoneMaterial: {fileID: 0}
+      ExclusionZoneFilters: []
+      ExclusionZoneIncludeSubRules: 1
+      ruleType: 3
+    prefabs:
+    - {fileID: 3483850485456752756, guid: ba116524665fe964abd3bfe4f2218dee, type: 3}
+    - {fileID: 836450184621525878, guid: 69315bb7fbfb0aa48a092b6abf8b5f28, type: 3}
+    - {fileID: 8666892796985090937, guid: 4b1c0b6fdb680dd43b58a80eafc54ae2, type: 3}
+    - {fileID: 3545894991660671465, guid: 022f91b45c2c60d408fa599dcd1cb7e5, type: 3}

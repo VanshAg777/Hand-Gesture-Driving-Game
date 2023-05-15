@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a223b7200b12fa34db58cf87d35315df, type: 3}
+  m_Name: Cliff_Rock_PhysicalProperty
+  m_EditorClassIdentifier: 
+  m_VFXInfos:
+  - {fileID: 11400000, guid: d3ae690dcb172b5458fe2e87116e74a6, type: 2}
+  - {fileID: 11400000, guid: 639e5a7611a04a548a7fc70736e6fc5c, type: 2}
+  m_physicInfo: {fileID: 11400000, guid: 93a3dda96e9d73349af51f641bb75484, type: 2}
+  m_layerName: Cliff_Rock

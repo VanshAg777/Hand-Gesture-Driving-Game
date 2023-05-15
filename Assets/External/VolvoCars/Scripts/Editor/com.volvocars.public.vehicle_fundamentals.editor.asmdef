@@ -1,0 +1,17 @@
+{
+    "name": "com.volvocars.public.vehicle_fundamentals.editor",
+    "references": [
+        "GUID:b20df369a820f5f4a83e3b28c40ccc87"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

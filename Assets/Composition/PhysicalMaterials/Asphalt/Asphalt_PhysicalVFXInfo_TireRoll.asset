@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8566c4ea5727d84c8d1177c1958437f, type: 3}
+  m_Name: Asphalt_PhysicalVFXInfo_TireRoll
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_sound: {fileID: 8300000, guid: 049d5b3a385d7d647a9f298d2b662d39, type: 3}
+  m_effect: {fileID: 0}

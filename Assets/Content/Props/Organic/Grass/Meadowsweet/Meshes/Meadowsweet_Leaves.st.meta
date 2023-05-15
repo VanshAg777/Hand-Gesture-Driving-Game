@@ -1,0 +1,93 @@
+fileFormatVersion: 2
+guid: 8507727638469df4ca07296ac46cf7ae
+SpeedTreeImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MSH_Grass_Meadowsweet_Leaves_Billboard_LOD3
+    second: {fileID: 2100000, guid: 30e4cf91cfbbc4148b7e19829e13c009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MSH_Grass_Meadowsweet_Leaves_LOD0
+    second: {fileID: 2100000, guid: 55497d8071affe34c966e911157032c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MSH_Grass_Meadowsweet_Leaves_LOD1
+    second: {fileID: 2100000, guid: f2aba2bfbe8a3af4187f8fe10dc3f748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MSH_Grass_Meadowsweet_Leaves_LOD2
+    second: {fileID: 2100000, guid: b6013fa445874e3439764ea001685f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Grass_SweetMeadow_LOD0
+    second: {fileID: 2100000, guid: 1a4780f9da408734f8deb4c0d57e505d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Grass_SweetMeadow_LOD1
+    second: {fileID: 2100000, guid: 1a4780f9da408734f8deb4c0d57e505d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Grass_SweetMeadow_LOD2
+    second: {fileID: 2100000, guid: 527edd8ac98b56a41819a73843153be8, type: 2}
+  serializedVersion: 6
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
+  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  alphaTestRef: 0.33
+  bestWindQuality: 0
+  hasBillboard: 1
+  lODSettings:
+  - height: 0.5
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 0
+  - height: 0.103087336
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 0
+  - height: 0.011484005
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 0
+  - height: 0.0009974405
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 0
+    reflectionProbeUsage: 0
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 0
+  enableSmoothLODTransition: 1
+  animateCrossFading: 1
+  billboardTransitionCrossFadeWidth: 0.25
+  fadeOutWidth: 0.25
+  scaleFactor: 0.3048
+  materialVersion: 3
+  materialLocation: 1
+  fileIDType: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

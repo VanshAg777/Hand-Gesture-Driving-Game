@@ -1,0 +1,16 @@
+{
+    "name": "com.volvocars.public.vehicle_fundamentals",
+    "references": [
+        "GUID:632b551cd17705247b547bc64e04862e",
+        "GUID:c669c7c1f755b4c419107d06be894bc6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

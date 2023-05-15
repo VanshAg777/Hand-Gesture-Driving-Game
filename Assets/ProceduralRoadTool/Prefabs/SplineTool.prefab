@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8196828794105878423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8196828794105878418}
+  - component: {fileID: 8196828794105878417}
+  - component: {fileID: 8196828794105878416}
+  m_Layer: 0
+  m_Name: SplineTool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8196828794105878418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196828794105878423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8196828794105878417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196828794105878423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a200b19ca1a9685429ed7e043c28e904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 44
+  m_Appearance:
+    pathColor: {r: 1, g: 0, b: 0.66400194, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 1.15
+  m_Looped: 0
+  m_Waypoints:
+  - position: {x: 11.711667, y: -1.8999999, z: -6.747153}
+    roll: 0
+  - position: {x: -7.2860107, y: -1.8999999, z: -9.276698}
+    roll: 0
+  - position: {x: -23.838175, y: -1.8999999, z: -2.1104736}
+    roll: 0
+  - position: {x: -46.993073, y: -1.8999999, z: 18.282791}
+    roll: 0
+  - position: {x: -30.224615, y: -1.8999999, z: 32.758835}
+    roll: 0
+--- !u!114 &8196828794105878416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196828794105878423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d069b7aa233398e49ba9f0f03e096bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showGizmos: 0
+  snapSmoothPathToTerrain: 0
+  snapObjectsToTerrain: 0
+  terrainLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  path: {fileID: 8196828794105878417}
+  axis: 2
+  iterations: 92
+  baseMesh: {fileID: 8837065345142996618, guid: 920afd0b3479ba34195bde082120ce5a, type: 3}
+  startMesh: {fileID: 7243449672446477042, guid: 96e111375ed1271449cbc22d6cb5c9b3, type: 3}
+  endMesh: {fileID: 7243449672446477042, guid: 294a984e82aff1b479e8a96a9e502926, type: 3}

@@ -1,0 +1,19 @@
+{
+    "name": "com.volvocars.public.utility.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c669c7c1f755b4c419107d06be894bc6",
+        "GUID:b20df369a820f5f4a83e3b28c40ccc87"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

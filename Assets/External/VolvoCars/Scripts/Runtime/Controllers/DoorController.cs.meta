@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dea8f960f783e964882af4f5fcdca54f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - doorGameObj: {instanceID: 0}
+  - openDoorExtSound: {instanceID: 0}
+  - openDoorIntSound: {instanceID: 0}
+  - closeDoorExtSound: {instanceID: 0}
+  - closeDoorIntSound: {instanceID: 0}
+  - doorOpenCloseSoundSource: {instanceID: 0}
+  - doorHandleExtSoundSource: {instanceID: 0}
+  - doorHandleIntSoundSource: {instanceID: 0}
+  - doorIsOpen: {instanceID: 0}
+  - cameraIsInsideCar: {fileID: 11400000, guid: ded86fcf5ba828d439a23bf8f8084451,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
