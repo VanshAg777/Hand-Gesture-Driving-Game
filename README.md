@@ -1,7 +1,7 @@
 # Hand-Gesture-Driving-Game
 
 ## How to Run:
-Run *vovlo.py* to activate hand detection.
+Run **vovlo.py** to activate hand detection.
 Run the game on Unity to drive the vehicle using hand gestures.
 
 Raise the hand to increase the speed. Lower the hand to reverse. Move the hand vertically to steer the vehicle.
