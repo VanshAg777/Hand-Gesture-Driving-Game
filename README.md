@@ -6,6 +6,9 @@ Run the game on Unity to drive the vehicle using hand gestures.
 
 Raise the hand to increase the speed. Lower the hand to reverse. Move the hand vertically to steer the vehicle.
 
+## Architecture
+<img width="761" alt="Screenshot 2023-06-07 at 1 32 08 PM" src="https://github.com/VanshAg777/Hand-Gesture-Driving-Game/assets/114874910/58d7a754-23b1-48c0-adce-568ecc3b2a82">
+
 ## GIF
 ![Game - Made with Clipchamp](https://github.com/VanshAg777/Hand-Gesture-Driving-Game/assets/114874910/ef30f84a-1260-4c12-9bf2-1b357226aa9e)
 
